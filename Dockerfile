@@ -2,7 +2,7 @@
 FROM apache/beam_java17_sdk
 
 #PLACEMENT OF THE EXECUTABLE [MICROSERVICE] ON THE IMAGE
-COPY target/configserver-dev-1.jar app.jar
+COPY target/configserver-prod-1.jar app.jar
 
 #EXPOSE PORTS FOR INCOMING TRAFFIC - HOST_PORT:CONTAINER_PORT
 EXPOSE 9070:9070

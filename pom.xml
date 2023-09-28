@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.ss</groupId>
     <artifactId>configserver</artifactId>
-    <version>dev-1</version>
+    <version>prod-1</version>
     <name>configserver</name>
     <description>configserver</description>
     <properties>
